@@ -1,6 +1,6 @@
 def square_array(array)
   
-  while array == array*array do
+  while array == array*array 
     puts array
   end
 end
