@@ -1,7 +1,7 @@
 def square_array(array)
-  
+  new_array = []
   while array == array*array 
-    puts array
+    new_array << array**array
   end
 end
 
